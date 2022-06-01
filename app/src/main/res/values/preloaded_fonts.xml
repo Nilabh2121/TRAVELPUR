@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/amarante</item>
+        <item>@font/chela_one</item>
+        <item>@font/fjalla_one</item>
+        <item>@font/rammetto_one</item>
+    </array>
+</resources>

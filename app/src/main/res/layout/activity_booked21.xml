@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".bookedActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="321dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="@font/rammetto_one"
+        android:text="CONGRATULATIONS!!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="370dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="93dp"
+        android:background="@drawable/bookedbutton2"
+        android:fontFamily="@font/chela_one"
+        android:text="Back To Home.."
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="114dp"
+        android:fontFamily="@font/acme"
+        android:text="Your Trip pacakage is Booked with us.."
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="282dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/chela_one"
+        android:text="HAPPY TRAVELLING..."
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/homebutton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="264dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/vectorlogo" />
+</android.support.constraint.ConstraintLayout>
